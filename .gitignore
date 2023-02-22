@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/StemmingFrequency.Console/bin/Debug/net6.0
+/src/StemmingFrequency.Console/obj
+/src/StemmingFrequency.Core/bin/Debug/net6.0
+/src/StemmingFrequency.Core/obj
+/tests/StemmingFrequency.Tests/bin/Debug/net6.0
+/tests/StemmingFrequency.Tests/obj
+/.vs/StemmingFrequency

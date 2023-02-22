@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52C246A2-BDC4-4E48-A948-B076AF5ADDD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{19AF8E55-D54D-4959-8E4A-1AA5DAEA902B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StemmingFrequency.Console", "src\StemmingFrequency.Console\StemmingFrequency.Console.csproj", "{63ED4404-AD27-4449-B837-659A322E3652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StemmingFrequency.Core", "src\StemmingFrequency.Core\StemmingFrequency.Core.csproj", "{479855F2-A02C-4E82-90A9-F3991A176587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StemmingFrequency.Tests", "tests\StemmingFrequency.Tests\StemmingFrequency.Tests.csproj", "{E1315989-2ADD-4F77-A452-C0EF88AE343E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63ED4404-AD27-4449-B837-659A322E3652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63ED4404-AD27-4449-B837-659A322E3652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63ED4404-AD27-4449-B837-659A322E3652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63ED4404-AD27-4449-B837-659A322E3652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479855F2-A02C-4E82-90A9-F3991A176587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479855F2-A02C-4E82-90A9-F3991A176587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479855F2-A02C-4E82-90A9-F3991A176587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479855F2-A02C-4E82-90A9-F3991A176587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1315989-2ADD-4F77-A452-C0EF88AE343E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1315989-2ADD-4F77-A452-C0EF88AE343E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1315989-2ADD-4F77-A452-C0EF88AE343E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1315989-2ADD-4F77-A452-C0EF88AE343E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63ED4404-AD27-4449-B837-659A322E3652} = {52C246A2-BDC4-4E48-A948-B076AF5ADDD4}
+		{479855F2-A02C-4E82-90A9-F3991A176587} = {52C246A2-BDC4-4E48-A948-B076AF5ADDD4}
+		{E1315989-2ADD-4F77-A452-C0EF88AE343E} = {19AF8E55-D54D-4959-8E4A-1AA5DAEA902B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE9DF35B-F01A-427C-8433-DEF515FB267D}
+	EndGlobalSection
+EndGlobal
